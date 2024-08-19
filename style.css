@@ -4,38 +4,38 @@
 }
 
 img {
-    width: 100px;
-    margin-right: 15px;
+    width: 120px;
+    margin-right: 20px;
     border-radius: 50%;
 }
 
 .cardContainer {
-    width: 350px;
-    background-color: #f4f4f9;
-    border-radius: 12px;
-    border: 2px solid #cccccc;
+    width: 450px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    border: 3px solid #00aaff;
     color: #333333;
     display: block;
     margin: 150px auto;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
     overflow: hidden;
     font-family: 'Arial', sans-serif;
 }
 
 .cardHeader {
-    padding: 15px;
-    background-color: #ffffff;
-    border-bottom: 1px solid #cccccc;
+    padding: 20px;
+    background-color: #00aaff;
+    color: white;
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     font-weight: bold;
 }
 
 .cardBody {
-    padding: 20px;
+    padding: 25px;
     display: flex;
     align-items: center;
-    background-color: #f4f4f9;
+    background-color: #f0faff;
 }
 
 .cardBody div {
@@ -43,27 +43,28 @@ img {
 }
 
 .cardName {
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: bold;
-    margin-bottom: 5px;
+    color: #00aaff;
+    margin-bottom: 8px;
 }
 
 .cardTitle {
-    font-size: 0.9rem;
-    color: #777777;
-    margin-bottom: 10px;
+    font-size: 1rem;
+    color: #555555;
+    margin-bottom: 15px;
 }
 
 .cardContact {
-    font-size: 0.85rem;
-    color: #555555;
+    font-size: 0.9rem;
+    color: #777777;
 }
 
 .cardFooter {
-    background-color: #ffffff;
-    padding: 15px;
-    border-top: 1px solid #cccccc;
+    background-color: #00aaff;
+    padding: 20px;
     text-align: center;
-    font-size: 0.8rem;
-    color: #777777;
+    font-size: 0.9rem;
+    color: white;
+    border-top: 1px solid #cccccc;
 }
