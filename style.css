@@ -67,4 +67,15 @@ img {
     font-size: 0.9rem;
     color: white;
     border-top: 1px solid #cccccc;
+.linkedinLink {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.linkedinLink:hover {
+    text-decoration: underline;
+    color: #ffdd57;
+}
+    
 }
